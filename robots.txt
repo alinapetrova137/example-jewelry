@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /cart/
+Disallow: /order/
+Disallow: /search/
+Disallow: /*?filter=
+Disallow: /*?sort=
+
+# Служебные страницы
+Disallow: /admin/
+Disallow: /checkout/
+
+# Карта сайта
+Sitemap: https://example-jewelry.ru/sitemap.xml
